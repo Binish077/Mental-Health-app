@@ -1,11 +1,10 @@
 #!/bin/bash
-storedBranch=$(git branch | awk -e '/^\* / {print $2}')
-
 git add breathNotes main-app.py README.md script
 read -p "Enter a commit message: " msg 
 git commit -m "$msg"
 git push
 
+# storedBranch=$(git branch | awk -e '/^\* / {print $2}')
 # if [ "$storedBranch" != "$str" ]; then
 #     git checkout sub
 # #Add to GitHub
