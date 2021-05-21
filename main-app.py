@@ -1,5 +1,7 @@
 import numpy as np
-from tkinkter import *
+# If you are importing everything from tkinter, line 4 better than line 3
+# from tkinkter import *
+import tkinter
 import time
 
 def mindful():
@@ -11,8 +13,5 @@ def mindful():
     time.sleep(1)
     set_time=set_time-1
     if set_time%5==0:
-      print("Inhale/Exhale") #I'm thinking of the 4-7-8 breathing technique but I'm not sure how to implement it
-    
-  
-  
-  
+      print("Inhale/Exhale") #Look at 'breathNotes' file 
+mindful()

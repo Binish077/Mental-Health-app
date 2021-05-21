@@ -1,0 +1,10 @@
+print("Inhale/Exhale") #I'm thinking of the 4-7-8 breathing technique but I'm not sure how to implement it
+
+Solution 1
+1. variable 'decision' that keeps track of sec set to 1  
+2. Store the values(4,7,8) into a tuple or list
+3. if/else or switch to countdown from 4,7,or 8
+4. Add 1 to decision 
+    -if decision is 3, reset to 1
+
+ 
