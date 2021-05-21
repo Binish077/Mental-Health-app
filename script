@@ -1,0 +1,20 @@
+#!/bin/bash
+storedBranch=$(git branch | awk -e '/^\* / {print $2}')
+
+git add breathNotes main-app.py README.md script
+read -p "Enter a commit message: " msg 
+git commit -m "$msg"
+git push
+
+# if [ "$storedBranch" != "$str" ]; then
+#     git checkout sub
+# #Add to GitHub
+# else
+#     git add script fetchUpdates checkout extraFiles/  include/helper.h
+#     read -p "Enter a commit message: " msg 
+#     git commit -m "$msg"
+#     git push
+#     if [ "$PARAM" = "master" ]
+#     then
+#         git checkout master
+#     fi
