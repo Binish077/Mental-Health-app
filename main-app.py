@@ -37,7 +37,7 @@ def main():
     while True:
         print("===============================================================")
         print("Welcome to Incremental, what would you like to do today?")
-        print("a) Journal\nb)Illnesses information page\nc)Take a quiz\n")
+        print("a) Journal\nb)Illnesses information page\nc)Take a quiz\nd)Meditate\n")
         user_choice=input("Enter your answer (a,b, or c) Press ENTER to exit: ")
         print("===============================================================")
         print("\n")
@@ -51,6 +51,10 @@ def main():
 
         elif user_choice=='c':
             quiz.execute_quiz()
+            print("\n")
+        
+        elif user_choice=='d':
+            mindful()
             print("\n")
     
         elif user_choice=="":
