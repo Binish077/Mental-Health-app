@@ -27,9 +27,9 @@ def write_in_diary():
         action = input('')
         print('How did you feel? (ex Happy)')
         sensation = input('')
-        
+
         Diary.append( DiaryEntry(month, day, year, action, sensation))
-        
+
         while True:
             print('Did you do anything else today? Yes (y) No (n)')
             res = input('')
@@ -55,7 +55,7 @@ def view_diary():
             for entry in Diary:
                 if entry.year == view_date[0]:
                     print_entry(entry)
-        
+
         elif  view_date[0].isalnum() == True and len(view_date) == 2:
             for entry in Diary:
                 if entry.month == view_date[0] and entry.year == view_date[1]:
@@ -64,22 +64,22 @@ def view_diary():
         elif len(view_date) == 3:
             for entry in Diary:
                 if entry.month == view_date[0] and entry.day == view_date[1] and entry.year == view_date[2]:
-                    print_entry(entry) 
-        
+                    print_entry(entry)
+
         elif view_date[0] == 'done':
             running = False
 
-runnning = True                      
-while runnning:
-    print("What would you like to do?")
-    print("Write in diary (w), view diary (v), or exit diary (bye)")
+def execute_diary():
+    runnning = True
+    while runnning:
+        print("What would you like to do?")
+        print("Write in diary (w), view diary (v), or exit diary (bye)")
 
-    res = input('')
+        res = input('')
 
-    if(res == 'w'):
-        write_in_diary()
-    elif(res == 'v'):
-        view_diary()
-    elif(res == 'bye'):
-        runnning = False
-
+        if(res == 'w'):
+            write_in_diary()
+        elif(res == 'v'):
+            view_diary()
+        elif(res == 'bye'):
+            runnning = False

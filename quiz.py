@@ -24,6 +24,7 @@ def anxiety():
         print("\nYou may be experiencing Generalized Anxiety Disorder")
         print("Symptoms also may include: irritability, muscle tension, difficulty sleeping, etc.")
 
-print("Welcome to Symptom quiz\nPlease answer the questions below:")
-stress()
-print("You have reached the end of the quiz")
+def execute_quiz():
+    print("Welcome to Symptom quiz\nPlease answer the questions below:")
+    stress()
+    print("You have reached the end of the quiz")

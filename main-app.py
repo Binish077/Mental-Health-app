@@ -4,6 +4,9 @@ import numpy as np
 import tkinter
 import time
 import random
+import diary as diary
+import illnesses_info_page as ill
+import quiz as quiz
 
 def mindful():
   minutes=input("How long (minutes) would you like today's meditation to be? (Default: 5 minutes) ")
@@ -26,4 +29,37 @@ def mindful():
         s4="Relax your muscules"
         quotes=[s1,s2,s3,s4]
         print(random.choice(quotes)+"\n")
-mindful()
+
+#Asks the user what they would like to do
+
+def main():
+
+    while True:
+        print("===============================================================")
+        print("Welcome to Incremental, what would you like to do today?")
+        print("a) Journal\nb)Illnesses information page\nc)Take a quiz\n")
+        user_choice=input("Enter your answer (a,b, or c) Press ENTER to exit: ")
+        print("===============================================================")
+        print("\n")
+        if user_choice=='a':
+            diary.execute_diary()
+            print("\n")
+
+        elif user_choice=='b':
+            ill.execution()
+            print("\n")
+
+        elif user_choice=='c':
+            quiz.execute_quiz()
+            print("\n")
+    
+        elif user_choice=="":
+            print("Thank you for using Incremental")
+            break
+    
+        else:
+            print("Please enter a valid input\n")
+
+main()
+    
+    
