@@ -1,4 +1,5 @@
 # Mental-Health-app
+Check it out here: https://devpost.com/software/peaceflow
 This is a mental health app that aims to help you check in everyday with how you are feeling, meditate, learn more about mental illnesses, and take a symptoms quiz.
 
 ## Option 1 (Journaling)- Code by Sachin 
