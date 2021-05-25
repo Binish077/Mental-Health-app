@@ -1,20 +1,15 @@
 # Mental-Health-app
-This is a mental health app that aims to help you check in everyday with how you are feeling. Mental health app like a diary. User can enter number of minutes to meditate. Allows you to choose a color that expresses your mood. You can view your diary as a table. Resources option that asks what you need and provides resources.
+This is a mental health app that aims to help you check in everyday with how you are feeling, meditate, learn more about mental illnesses, and take a symptoms quiz.
 
-## Option 1 (Mindfulness meditation)
-A function that asks how long user would like to meditate. Every 5 seconds it instructs to inhale or exhale
+## Option 1 (Journaling)- Code by Sachin 
+This option allows you to enter diary entries with the emotions you felt on a particular day, you can also select to view a diary entry from a specific day.
 
-## Option 2 (Choose color)
-Gives list of colors. Select 1, ask for confirmation. Store as a rectangle on tkinter (number of rectangles=number of responses). Shows the most dominant color and explain symbolism
+## Option 2 (Illnesses information page)- Code by Binish
+This option allows the user to learn more about a particular mental illness. Currently, the user can get information about depression, Generalized Anxiety Disorder, and Obsessive-compulsive disorder
 
-## Option 3 (Enter daily diary)
-Date
-List 5 things you did
-List 5 sensations you felt
-List a beautiful thing
-(Use dictionary with key as day?)
+## Option 3 (Symptoms quiz)
+If a user is experiencing symptoms and would like to get a diagnosis, they could use this quiz that asks them about the symptoms they are experiencing and gives an unofficial diagnosis.
 
-## Option 4 (View daily diary)
-Table:
-Date     Did          Felt             Beautiful thing
+## Option 4 (Meditation)
+The user can choose how many minutes they would like to meditate for. Once the timer starts, the program uses the 4-7-8 breathing method to guide the user through the meditation.
 
