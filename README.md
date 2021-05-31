@@ -1,6 +1,9 @@
 # Mental-Health-app
-Check the app out here: https://devpost.com/software/peaceflow
-This is a mental health app that aims to help you check in everyday with how you are feeling, meditate, learn more about mental illnesses, and take a symptoms quiz.
+### Team: Sachin Patel, Samson Cournane, Justin Chan, Binish Patel, and Thanh Nham
+Check the website out here: https://devpost.com/software/peaceflow
+This is a mental health website that aims to help you check in everyday with how you are feeling, meditate, learn more about mental illnesses, and take a symptoms quiz.
+
+## On this repository:
 
 ## Option 1 (Journaling)- Code by Sachin 
 This option allows you to enter diary entries with the emotions you felt on a particular day, you can also select to view a diary entry from a specific day.
